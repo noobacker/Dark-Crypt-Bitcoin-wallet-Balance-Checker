@@ -1,3 +1,5 @@
+"NOTE :- Please note that the wallets shown here are random examples. Be sure to replace them with your own wallet addresses before proceeding. (Also remove this Note if script fails to read wallets)"
+
 3B578K3fKygi3p5KyPisc2vdV8rda3JyEo
 36Mr4CMfih7NzCfSEAcSmtBMCT2Ky2eE84
 3F86A2xaayebKBuDEGEWxTCLdzkF2VBhuX
