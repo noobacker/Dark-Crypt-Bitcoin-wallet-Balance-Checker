@@ -25,6 +25,6 @@ Developed by: ~Noobacker
 Contact: [http://harshal-pimpalshende.vercel.app/](http://harshal-pimpalshende.vercel.app/)  
 Bitcoin Address for Contributions: bc1qhr33ul6w65e3exnjjwfj7dddrnlp3fug4gggpy
 
-# Files
+# Disclaimer / Warning
 
 It's important to note that this script is intended for educational purposes only. Please use it responsibly and do not engage in any illegal activities. Remember, tracking Bitcoin balances should be done ethically and with the consent of the involved parties. Misuse of this script for malicious purposes is strictly prohibited. I'm not responsible for any consequences arising from the misuse of this script.
