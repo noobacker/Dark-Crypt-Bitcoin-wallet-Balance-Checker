@@ -1,3 +1,4 @@
+# https://github.com/noobacker/
 import sys
 import re
 import requests
@@ -21,7 +22,7 @@ def get_exchange_rates():
     except requests.RequestException as e:
         print(f"Failed to fetch exchange rates: {e}")
         return None, None
-
+# https://github.com/noobacker/
 # Function to check balance
 def check_balance(address, file_positions):
     SONG_BELL = True
@@ -58,10 +59,11 @@ def check_balance(address, file_positions):
             balance_usd = btc_tokens / SATOSHIS_PER_BTC * usd_rate
             balance_inr = btc_tokens / SATOSHIS_PER_BTC * inr_rate
             print(f"{btc_tokens / SATOSHIS_PER_BTC:.8f} Bitcoin (USD: ${balance_usd:.2f}, INR: ₹{balance_inr:.2f})")
-            if btc_tokens > MINIMUM_BALANCE:
-                play_bell_sound()
         else:
             print("0 Bitcoin")
+
+        if tag == 'final_balance' and btc_tokens > 0.0:
+            play_bell_sound()
 
         if SONG_BELL and tag == 'final_balance' and btc_tokens > 0.0:
             sys.stdout.write('\a\a\a')
